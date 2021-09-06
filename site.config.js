@@ -9,7 +9,7 @@ module.exports = {
   // basic site info (required)
   name: '学习小站',
   domain: 'https://www.notion.so/2fcb50f12fb948d6929d9f36ec5f5180',
-  author: 'Bravemen',
+  author: 'Learn Teach Write ',
 
   // open graph metadata (optional)
   description: 'Example site description',
