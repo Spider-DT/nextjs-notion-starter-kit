@@ -8,7 +8,7 @@ module.exports = {
 
   // basic site info (required)
   name: 'Learn Share Write',
-  domain: 'fansi.live',
+  domain: 'https://www.notion.so/2fcb50f12fb948d6929d9f36ec5f5180',
   author: 'Bravemen',
 
   // open graph metadata (optional)
