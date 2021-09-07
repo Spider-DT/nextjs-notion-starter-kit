@@ -1,40 +1,38 @@
 module.exports = {
-  // where it all starts -- the site's root Notion page (required)
-  rootNotionPageId: '78fc5a4b88d74b0e824e29407e9f1ec1',
+  // where it all starts -- the site's root Notion page (required) 要分享的Notion页ID
+  rootNotionPageId: '2fcb50f12fb948d6929d9f36ec5f5180',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: 'fde5ac74eea345278f004482710e1af3',
 
   // basic site info (required)
-  name: 'Transitive Bullshit',
-  domain: 'transitivebullsh.it',
-  author: 'Travis Fischer',
+  name: 'Learn Share Write',
+  domain: 'fansi.live',
+  author: 'Bravemen',
 
   // open graph metadata (optional)
-  description: 'Personal site of Travis Fischer aka Transitive Bullshit',
-  socialImageTitle: 'Transitive Bullshit',
+  description: 'Personal site of Bravemen in learning progress',
+  socialImageTitle: 'Learn Share Write',
   socialImageSubtitle: 'Hello World! 👋',
 
-  // social usernames (optional)
+  // social usernames (optional) 待更新为微信公众号或B站账号
   twitter: 'transitive_bs',
   github: 'transitive-bullshit',
   linkedin: 'fisch2',
 
   // default notion icon and cover images for site-wide consistency (optional)
-  // page-specific values will override these site-wide defaults
-  defaultPageIcon:
-    'https://ssfy.io/https%3A%2F%2Fwww.notion.so%2Fimage%2Fhttps%253A%252F%252Fs3-us-west-2.amazonaws.com%252Fsecure.notion-static.com%252F797768e4-f24a-4e65-bd4a-b622ae9671dc%252Fprofile-2020-280w-circle.png%3Ftable%3Dblock%26id%3D78fc5a4b-88d7-4b0e-824e-29407e9f1ec1%26cache%3Dv2',
-  defaultPageCover:
-    'https://ssfy.io/https%3A%2F%2Fwww.notion.so%2Fimage%2Fhttps%253A%252F%252Fs3-us-west-2.amazonaws.com%252Fsecure.notion-static.com%252F9fc5ecae-2b4b-4e73-b0d4-918c829ba69f%252FIMG_0259-opt.jpg%3Ftable%3Dblock%26id%3D78fc5a4b-88d7-4b0e-824e-29407e9f1ec1%26cache%3Dv2',
+  // page-specific values will override these site-wide defaults  1.页面默认图标2.页面默认封面  需上传到图床，获取链接
+  defaultPageIcon:null,
+  defaultPageCover:null,
   defaultPageCoverPosition: 0.1862,
 
   // image CDN host to proxy all image requests through (optional)
   // NOTE: this requires you to set up an external image proxy
-  imageCDNHost: 'https://ssfy.io',
+  imageCDNHost: null,
 
   // Utteranc.es comments via GitHub issue comments (optional)
-  utterancesGitHubRepo: 'transitive-bullshit/transitivebullsh.it',
+  utterancesGitHubRepo: 'Spider-DT/transitivebullsh.it',
 
   // whether or not to enable support for LQIP preview images (optional)
   // NOTE: this requires you to set up Google Firebase and add the environment
